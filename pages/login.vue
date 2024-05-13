@@ -73,9 +73,7 @@ const nameRef = ref('')
         <UiButton class="hover:text-primary "  type='button'  @click="login">
             Вход
         </UiButton>
-        <UiButton class="hover:text-primary "  type='button' @click="register">
-            Регистрация
-        </UiButton>
+     
     </div>
 
       </form>

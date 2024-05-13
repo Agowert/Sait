@@ -7,7 +7,11 @@ export default defineNuxtConfig({
 
     componentDir: './components/ui'
   },
+  
   pinia: {
     storesDirs: ['./stores/**'],
-  }
+  
+},
+
+
 })

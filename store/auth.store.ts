@@ -12,7 +12,7 @@ const defaultValue: { user: IAuthStore } = {
 	},
 }
 
-export const useAuthStore = defineStore('auth', {
+export const useAuthStore = defineStore('auths', {
 	state: () => defaultValue,
 	getters: {
 		isAuth: state => state.user.status,

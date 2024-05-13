@@ -30,6 +30,12 @@ export const MENU_DATA: IMenuItem[] = [
 },
 {
     icon: 'i-line-md-bell-loop',
+    name: 'Register',
+    url: '/register',
+
+},
+{
+    icon: 'i-line-md-bell-loop',
     name: 'Login',
     url: '/login',
 

@@ -1,36 +1,43 @@
-export interface IMenuItem{
+export interface IMenuGALLERY{
     name:string
+    text:string
     url:string
     icon:string
 }
-export const GALLERY_DATA : IMenuItem[] = [
+export const GALLERY_DATA : IMenuGALLERY[] = [
 {
-    icon: 'i-line-md-home-twotone-alt',
-    name: 'Home',
+    icon: '/ratchenko.jpg',
+    name: 'На площади',
+    text: '22.11.2011',
     url: '/',
 
 },
 {
-    icon: 'i-line-md-email',
+    icon: '/ratchenko.jpg',
     name: 'Messages',
+    text: 'Home',
     url: '/',
 
 },
 {
-    icon: 'i-line-md-image',
+    icon: '/ratchenko.jpg',
     name: 'Gallery',
+    text: 'Home',
     url: '/',
 
 },
 {
-    icon: 'i-line-md-bell-loop',
+    icon: '/ratchenko.jpg',
     name: 'Questions',
+    text: 'Home',
     url: '/',
 
 },
+
 {
-    icon: 'i-line-md-bell-loop',
+    icon: '/ratchenko.jpg',
     name: 'Login',
+    text: 'Home',
     url: '/login',
 
 }

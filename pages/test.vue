@@ -1,13 +1,19 @@
 <script lang="ts">
+
 </script>
 
 <template>
-    <LayoutGallery></LayoutGallery>
-  <div class="bg-gradient-to-tr fromGra toGra  w-full h-full"></div>
+  <div class="bg-gradient-to-tr fromGra toGra w-full h-full">
   
+    <LayoutGallery></LayoutGallery>
+    
+</div>
+
 </template>
 
 <style scoped>
+
+
 .bg-gradient-to-tr {
     background-image: linear-gradient(to top right, var(--from-color), var(--to-color));
 }
@@ -19,5 +25,8 @@
 .toGra {
     --to-color: rgba(50, 49, 107, 0.815);
 }
+
+</style>
+<style scoped>
 
 </style>
