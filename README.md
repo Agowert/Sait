@@ -1,75 +1,28 @@
-# Nuxt 3 Minimal Starter
+# Тестовый проект
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Этот проект представляет собой тестовое приложение, созданное с использованием фреймворка **Nuxt.js**. Он включает в себя ряд пакетов для работы с изображениями, стилями, иконками, управления состоянием, а также попытку интеграции сервисов **Appwrite** и **MySQL**.
 
-## Setup
+## Включенные пакеты:
 
-Make sure to install the dependencies:
+- **@nuxt/image**: Модуль для оптимизации и обработки изображений.
+- **@nuxtjs/tailwindcss**: Интеграция фреймворка стилей **Tailwind CSS**.
+- **shadcn-nuxt** и **nuxt-icon**: Модули для работы с иконками.
+- **@pinia/nuxt**: Интеграция библиотеки управления состоянием **Pinia**.
+
+## Попытка использования сервисов:
+
+- **Appwrite**: Попытка интеграции Backend-as-a-Service платформы для управления пользователями и данными.
+- **MySQL**: Попытка использования реляционной базы данных для хранения данных.
+
+## Функциональность:
+
+- **Фильтр по карточкам в галерее**: Реализована возможность фильтрации карточек на странице галереи, позволяющая пользователям выбирать категории или типы контента для отображения.
+
+## Использование:
+
+1. Установите зависимости проекта:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# или
 yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -25,9 +25,9 @@ const register = async () => {
 </script>
 
 <template>
-    <div style="padding: 20px;">
-    <div class="register-container" >
-      <h1>Register</h1>
+    <div style="margin: 250px 0 0 0;">
+    <div class="register-container " >
+   
       <form @submit.prevent="register" class="register-form">
         <div class="form-group">
           <input type="text"  v-model="name" required class="form-input" placeholder="Name" />
